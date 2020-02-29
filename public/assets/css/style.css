@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: blanchedalmond;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
