@@ -1,48 +1,78 @@
-<img src="/assets/img/hamburger.png" height="250px" width="250px" alt="Burger">
 
-<h1>Eat-Da-Burger</h1>
+<row>
+  <div class="col-md-12 text-center margin-extra">
+
+    <img src="/assets/img/hamburger.png" height="225px" width="225px" alt="Burger">
+
+    <h2>Eat-Da-Burger</h2>
+
+  </div>
+</row>
 
 
 
-<!-- burgers -->
-<h2>Burgers</h2>
+<row>
+  <!-- burgers -->
+  <div class="col-sm-4 text-center">
+
+    <h3>Burgers</h3>
+
+    <ul>
+      {{#each burgers}}
+        {{#unless devoured}} 
+       <li  class="li-view">{{id}}. {{burger_name}}</li>
+        {{/unless}}
+      {{/each}}
+    </ul>
+</div>
+
+
+<!-- devour buttons-->
+<div class="col-sm-4 text-center">
+
+<h3>&nbsp;</h3>
 
 <ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-  
-    <li>{{burger_name}} <button class="change-devoured" id="{{id}}">Devour Burger</button></li>
+      {{#each burgers}}
+        {{#unless devoured}}
+          <li class="li-alt"><button class="change-devoured" data-id="{{id}}" id="{{id}}">Devour Burger</button></li>
+        {{/unless}}
+      {{/each}}
+    </ul>
 
-    {{/unless}}
-  {{/each}}
-</ul>
-
-
+</div>
 
 
 <!--devoured burgers-->
-<h2>Devoured</h2>
+<div class="col-sm-4 text-center">
+    
+    <h3>Devoured</h3>
 
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-     
-     <li>{{burger_name}} </li>
+    <ul>
+      {{#each burgers}}
+        {{#if devoured}}
+        <li class="li-view">{{id}}. {{burger_name}} </li>
+        {{/if}}
+    {{/each}}
+    </ul>
 
-    {{/if}}
-  {{/each}}
-</ul>
-
+  </div>
+</row>
 
 
 <!--  burger form -->
-<h2>Add a Burger</h2>
-<form class="create-form">
+<row>
+  <div class="col-md-12 text-center">
+   
+    <form class="create-form">
 
-  <div class="form-group">
-    <label for="bu">Burger Type:</label>
-    <input type="text" id="bu" name="burger_name">
-  </div>
+      <div class="form-group">
+        <label for="bu">Enter the burger you want to eat. Then add a burger!</label>
+        <input type="text" id="bu" name="burger_name" class="form-control">
+      </div>
 
-  <button type="submit">Add A burger</button>
-</form>
+      <button type="submit" >Add a Burger</button>
+
+      </form>
+    </div>
+  </row>
