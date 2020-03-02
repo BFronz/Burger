@@ -20,7 +20,8 @@ body {
   margin: 5px;
   background: white;
   text-align: left;
-  list-style-type: none;
+  /* list-style-type: none; */
+  list-style-position: inside;
 }
 
 
@@ -29,6 +30,7 @@ body {
   margin: 0px;
   text-align: center;
   list-style-type: none;
+  /* list-style-position: inside; */
 }
 
 .label {

@@ -17,13 +17,13 @@
 
     <h3>Burgers</h3>
 
-    <ul>
+    <ol>
       {{#each burgers}}
         {{#unless devoured}} 
-       <li  class="li-view">{{id}}. {{burger_name}}</li>
+       <li  class="li-view"> {{burger_name}}</li>
         {{/unless}}
       {{/each}}
-    </ul>
+    </ol>
 </div>
 
 
@@ -38,7 +38,7 @@
           <li class="li-alt"><button class="change-devoured" data-id="{{id}}" id="{{id}}">Devour Burger</button></li>
         {{/unless}}
       {{/each}}
-    </ul>
+</ul>
 
 </div>
 
@@ -48,13 +48,13 @@
     
     <h3>Devoured</h3>
 
-    <ul>
+    <ol>
       {{#each burgers}}
         {{#if devoured}}
-        <li class="li-view">{{id}}. {{burger_name}} </li>
+        <li class="li-view"> {{burger_name}} </li>
         {{/if}}
     {{/each}}
-    </ul>
+    </ol>
 
   </div>
 </row>
