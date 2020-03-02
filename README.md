@@ -45,8 +45,6 @@ Inquirer.js:  <a href="https://github.com/SBoudrias/Inquirer.js" target="_blank"
 
 Burger Image: <a href="https://pixabay.com/" target="_blank">pixabay.com</a>
 
-https://getbootstrap.com
-
 Bootstrap <a href="https://getbootstrap.com" target="_blank">getbootstrap.com</a>
 
 
