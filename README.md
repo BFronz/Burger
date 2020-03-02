@@ -26,6 +26,7 @@ npm install package.json
 * ORM 
 * Javascript
 * jQuery
+* Bootstrap
 
 
 
@@ -34,7 +35,7 @@ npm install package.json
 ## Special Features
 Clean fast running app.
 
-Runs on heroku.com https://young-hollows-22136.herokuapp.com/
+Runs on heroku.com 
 
 
 
@@ -43,6 +44,11 @@ Runs on heroku.com https://young-hollows-22136.herokuapp.com/
 Inquirer.js:  <a href="https://github.com/SBoudrias/Inquirer.js" target="_blank">SBoudrias</a>
 
 Burger Image: <a href="https://pixabay.com/" target="_blank">pixabay.com</a>
+
+https://getbootstrap.com
+
+Bootstrap <a href="https://getbootstrap.com" target="_blank">getbootstrap.com</a>
+
 
  
 ## Acknowledgments
