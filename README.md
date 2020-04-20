@@ -40,7 +40,7 @@ Runs on heroku.com: https://quiet-river-48564.herokuapp.com/
 
 
 
-<img scr="public/assets/img/project-burger.png" alt="project-burger">
+<img scr="/public/assets/img/project-burger.png" alt="project-burger">
 
 
 
