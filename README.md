@@ -40,6 +40,11 @@ Runs on heroku.com: https://quiet-river-48564.herokuapp.com/
 
 
 
+<img scr="assets/img/project-burger.png" alt="project-burger">
+
+
+
+
 ## Credits
 Inquirer.js:  <a href="https://github.com/SBoudrias/Inquirer.js" target="_blank">SBoudrias</a>
 
